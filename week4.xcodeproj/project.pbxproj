@@ -16,6 +16,8 @@
 		11B28E03296E9DBE0040B2D7 /* week4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B28E02296E9DBE0040B2D7 /* week4Tests.swift */; };
 		11B28E0D296E9DBE0040B2D7 /* week4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B28E0C296E9DBE0040B2D7 /* week4UITests.swift */; };
 		11B28E0F296E9DBE0040B2D7 /* week4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B28E0E296E9DBE0040B2D7 /* week4UITestsLaunchTests.swift */; };
+		11B28E1D296EAED40040B2D7 /* pickedDIceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B28E1B296EAED40040B2D7 /* pickedDIceCell.swift */; };
+		11B28E1E296EAED40040B2D7 /* pickedDIceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B28E1C296EAED40040B2D7 /* pickedDIceCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		11B28E08296E9DBE0040B2D7 /* week4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B28E0C296E9DBE0040B2D7 /* week4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week4UITests.swift; sourceTree = "<group>"; };
 		11B28E0E296E9DBE0040B2D7 /* week4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11B28E1B296EAED40040B2D7 /* pickedDIceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickedDIceCell.swift; sourceTree = "<group>"; };
+		11B28E1C296EAED40040B2D7 /* pickedDIceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pickedDIceCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				11B28DF4296E9DBE0040B2D7 /* Assets.xcassets */,
 				11B28DF6296E9DBE0040B2D7 /* LaunchScreen.storyboard */,
 				11B28DF9296E9DBE0040B2D7 /* Info.plist */,
+				11B28E1B296EAED40040B2D7 /* pickedDIceCell.swift */,
+				11B28E1C296EAED40040B2D7 /* pickedDIceCell.xib */,
 			);
 			path = week4;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B28E1E296EAED40040B2D7 /* pickedDIceCell.xib in Resources */,
 				11B28DF8296E9DBE0040B2D7 /* LaunchScreen.storyboard in Resources */,
 				11B28DF5296E9DBE0040B2D7 /* Assets.xcassets in Resources */,
 				11B28DF3296E9DBC0040B2D7 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B28E1D296EAED40040B2D7 /* pickedDIceCell.swift in Sources */,
 				11B28DF0296E9DBC0040B2D7 /* ViewController.swift in Sources */,
 				11B28DEC296E9DBC0040B2D7 /* AppDelegate.swift in Sources */,
 				11B28DEE296E9DBC0040B2D7 /* SceneDelegate.swift in Sources */,
