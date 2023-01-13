@@ -56,14 +56,14 @@ class ViewController: UIViewController {
         self.label1.text = "0"
         self.label2.text = "0"
         self.roundLabel.text = "Round 1"
-        
-    }
-
-    override func viewDidAppear(_ animated: Bool) {
         tv1.delegate = self
         tv1.dataSource = self
         tv1.register(UINib(nibName: "pickedDIceCell", bundle: nil), forCellReuseIdentifier: "pickedDIceCell")
     }
+
+//    override func viewDidAppear(_ animated: Bool) {
+//
+//    }
 
     @IBAction func addCell(_ sender: Any) {
         var player: Int = 0
